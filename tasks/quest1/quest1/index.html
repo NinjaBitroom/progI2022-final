@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+    
+        <label for="sexo">Sexo: </label>
+        <select name="sexo" id="sexo">
+            <option selected disabled>Selecione...</option>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+        <br><br>
+    
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade" min="0" value="0">
+        <br><br>
+    
+        <input type="button" value="Verificar" id="verificador">
+        <input type="reset" value="Limpar">
+        <br><br>
+    </form>
+
+    <label id="mensagem">...</label>
+    <script src="script.js"></script>
+</body>
+</html>

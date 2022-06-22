@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+</head>
+<body>
+    <script>
+        altura = parseFloat(prompt('Qual a sua altura?'));
+        sexo = prompt('Qual o seu sexo? (M/F):');
+        
+        if (sexo.toUpperCase() == 'M') {
+            alert('Seu peso ideal é: '+((72.7*altura)-58)+' kg');
+        } else if (sexo.toUpperCase() == 'F') {
+            alert('Seu peso ideal é: '+((62.1*altura)-44.7)+' kg');
+        } else {
+            alert('Ocorreu um erro ao encontrar o peso ideal');
+        };
+    </script>
+</body>
+</html>

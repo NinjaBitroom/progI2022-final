@@ -1,0 +1,66 @@
+html {
+    background-color:aqua;
+}
+
+#conteudo {
+    display: flex;
+}
+
+#rbranco {
+    background-color: aliceblue;
+}
+
+#rverde {
+    background-color: darkgreen;
+}
+
+#rrosa {
+    background-color:deeppink;
+}
+
+#ramarelo {
+    background-color: yellow;
+}
+
+#rescuro {
+    background-color: darkred;
+}
+
+.resultado {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.cor {
+    border: solid 1px black;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+}
+
+.numero {
+    font-size: 20pt;
+}
+
+
+.selecionado {
+    border: solid 2px green;
+}
+
+
+table {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+td {
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    user-select: none;
+}

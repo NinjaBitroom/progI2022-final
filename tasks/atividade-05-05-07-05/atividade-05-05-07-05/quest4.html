@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+</head>
+<body>
+    <script>
+        salario = parseFloat(prompt('Digite o seu salario: R$'));
+        funcao = prompt('Digite a sua função:');
+
+        if (funcao == 'técnico') {
+            novo_salario = salario+(salario*0.5);
+        } else if (funcao == 'gerente') {
+            novo_salario = salario+(salario*0.3);
+        } else {
+            novo_salario = salario+(salario*0.2);
+        };
+
+        alert('O salário de '+funcao+' que era R$ '+salario+' foi reajustado para R$'+novo_salario);
+    </script>
+</body>
+</html>

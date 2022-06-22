@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+</head>
+<body>
+    <form>
+        <label for="leituraatual">Leitura atual: </label>
+        <input type="number" name="leituraatual" id="leituraatual" min="0" value="0">
+        <br><br>
+
+        <label for="leituraanterior">Leitura anterior: </label>
+        <input type="number" name="leituraanterior" id="leituraanterior" min="0" value="0">
+        <br><br>
+
+        <label for="consumo">Consumo: </label>
+        <input type="text" id="consumo" readonly>
+        <br><br>
+
+        <input type="checkbox" name="baixarenda" id="baixarenda">
+        <label for="baixarenda">Baixa Renda</label>
+        <br><br>
+
+        <input type="button" value="Calcular" id="calculo">
+        <input type="reset" value="Novo">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
