@@ -9,9 +9,6 @@
 #3D3D3D - Preto Escuro
 #141414 - Preto Escuro
 #0A0A0A - Preto
-
- - Azul -
-#00B0F0 - Azul Claro
 */
 
 * {
@@ -62,7 +59,7 @@ a {
 button {
     border-radius: 5px;
     border: none;
-    background: #00B0F0;
+    background: #1F1F1F;
     color: #FAFAFA;
     font-weight: bold;
     font-size: 1.2em;
@@ -76,7 +73,7 @@ footer {
     font-size: 12px;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: auto;
     margin-top: 20px;
 }
 
