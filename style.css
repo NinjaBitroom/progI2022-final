@@ -23,6 +23,50 @@ body {
     color: #FAFAFA;
 }
 
+header {
+    background: #FAFAFA;
+    color: #212121;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    width: 100%;
+}
+
+nav {
+    background: #FAFAFA;
+    color: #212121;
+    padding: 20px;
+    border: 1px solid #3D3D3D;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
 h1 {
     font-size: 2em;
     font-weight: bold;
@@ -73,7 +117,7 @@ footer {
     font-size: 1.2em;
     text-align: center;
     padding: 10px;
-    width: auto;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -82,7 +126,7 @@ footer p {
 }
 
 .sessao {
-    width: auto;
+    width: 100%;
     height: auto;
     margin-top: 20px;
 }
