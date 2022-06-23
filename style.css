@@ -1,11 +1,22 @@
 /* Paleta de Cores
+ - Branco -
 #FAFAFA - Branco
+
+ - Preto -
 #212121 - Preto Claro
 #1F1F1F - Preto Médio Claro
 #525252 - Preto Médio
 #3D3D3D - Preto Escuro
 #141414 - Preto Escuro
 #0A0A0A - Preto
+
+ - Azul -
+#00B0F0 - Azul Claro
+#00A0E9 - Azul Médio Claro
+#0090D9 - Azul Médio
+#0080C8 - Azul Escuro
+#0070B8 - Azul Escuro
+#0060A8 - Azul Escuro
 */
 
 * {
@@ -21,7 +32,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 24px;
     font-weight: bold;
     color: #FAFAFA;
     text-align: center;
@@ -29,7 +40,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 18px;
     font-weight: bold;
     color: #FAFAFA;
     text-align: center;
@@ -37,13 +48,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 14px;
     margin-top: 20px;
 }
 
@@ -51,6 +62,17 @@ a {
     text-decoration: none;
     color: #212121;
     font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background: #00B0F0;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .descricao {
