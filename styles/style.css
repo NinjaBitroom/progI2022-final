@@ -45,7 +45,6 @@ header p {
 }
 
 nav {
-    background: #FAFAFA;
     color: #212121;
     padding: 20px;
     width: auto;
@@ -59,6 +58,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
