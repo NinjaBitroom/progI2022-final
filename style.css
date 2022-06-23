@@ -70,10 +70,24 @@ button {
     margin-top: 20px;
 }
 
+footer {
+    background: #212121;
+    color: #FAFAFA;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
 .descricao {
     font-size: 1.2em;
     color: #FAFAFA;
-    text-align: justify;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -84,7 +98,7 @@ button {
 }
 
 .card {
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 20px;
     background-color: #FAFAFA;
@@ -102,4 +116,5 @@ button {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
