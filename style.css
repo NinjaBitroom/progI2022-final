@@ -19,12 +19,12 @@
 body {
     background: #212121;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #FAFAFA;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
     color: #FAFAFA;
     text-align: center;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: bold;
     color: #FAFAFA;
     text-align: center;
@@ -40,13 +40,13 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: bold;
     text-align: center;
 }
 
 p {
-    font-size: 14px;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
@@ -70,7 +70,7 @@ button {
 footer {
     background: #212121;
     color: #FAFAFA;
-    font-size: 12px;
+    font-size: 1.2em;
     text-align: center;
     padding: 10px;
     width: auto;
@@ -81,15 +81,8 @@ footer p {
     margin-top: 10px;
 }
 
-.descricao {
-    font-size: 1.2em;
-    color: #FAFAFA;
-    text-align: center;
-    margin-top: 20px;
-}
-
 .sessao {
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 20px;
 }
@@ -105,7 +98,7 @@ footer p {
 }
 
 #container {
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -114,4 +107,10 @@ footer p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+#descricao {
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 20px;
 }
