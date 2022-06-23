@@ -5,21 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 5</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <script>
-        dividendo = parseInt(prompt('Escolha um número:'));
-        divisor = parseInt(prompt('Escolha o divisor:'));
-        cpu_divisao = '';
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="sessao">
+            <h1>Divisão</h1>
+            <p>Um programa que calcula a divisão inteira e o resto da divisão sem usar os operades de divisão!</p>
+    
+            <div class="card">
+                <p>Aperte o botão abaixo para iniciar a atividade!</p>
+                <button id="iniciar">Iniciar</button>
+            </div>    
+        </div>
 
-        resto = dividendo;
-        divisoes = 0;
-        while ((resto-divisor)>=0) {
-            resto -= divisor;
-            divisoes++;
-            cpu_divisao += '-'+divisor;
-        };
-        alert(dividendo+'/'+divisor+' = '+dividendo+cpu_divisao+' = '+divisoes+' divisões e resto '+resto);
-    </script>
+        <footer>
+            <p>&copy; Gabriel Bitencourt Marin</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

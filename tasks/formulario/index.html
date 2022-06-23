@@ -1,102 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu formulário</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
+
 <body>
-    <a href="../../index.html">Voltar</a>
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <fieldset>
-        <h1>Formulário de Inscrição em Evento</h1>
-        <form>
+        <div class="sessao">
             <fieldset>
-                <table>
-                    <tr>
-                        <td class="texto-d"><label for="nome">Nome completo:</label></td>
-                        <td><input type="text" name="nome" id="nome" required></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="email">E-mail:</label></td>
-                        <td><input type="email" name="email" id="email" placeholder="ex: myname@example.com" required></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d">Sexo:</td>
-                        <td><input type="radio" name="sexo" id="masc" required checked>
-                        <label for="masc">Masculino</label>
-                        <input type="radio" name="sexo" id="fem">
-                        <label for="fem">Feminino</label></td>
-                        
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="cargo">Cargo:</label></td>
-                        <td><input type="text" name="cargo" id="cargo"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="dataNasc">Nascimento:</label></td>
-                        <td><input type="date" name="nasc" id="dataNasc"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="telefone">Telefone:</label></td>
-                        <td><input type="tel" name="telefone" id="telefone"></td>
-                    </tr>
-                </table>
+                <h1>Formulário de Inscrição em Evento</h1>
+                <form>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td class="texto-d"><label for="nome">Nome completo:</label></td>
+                                <td><input type="text" name="nome" id="nome" required></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="email">E-mail:</label></td>
+                                <td><input type="email" name="email" id="email" placeholder="ex: myname@example.com"
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d">Sexo:</td>
+                                <td><input type="radio" name="sexo" id="masc" required checked>
+                                    <label for="masc">Masculino</label>
+                                    <input type="radio" name="sexo" id="fem">
+                                    <label for="fem">Feminino</label>
+                                </td>
+    
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="cargo">Cargo:</label></td>
+                                <td><input type="text" name="cargo" id="cargo"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="dataNasc">Nascimento:</label></td>
+                                <td><input type="date" name="nasc" id="dataNasc"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="telefone">Telefone:</label></td>
+                                <td><input type="tel" name="telefone" id="telefone"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+    
+                    <h2>Informações da Instituição</h2>
+                    <p>Preencha os campos abaixo com as informações da empresa em que trabalha.</p>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td class="texto-d"><label for="empresa">Empresa:</label></td>
+                                <td><input type="text" name="empresa" id="empresa"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="endereco">Endereço Completo:</label></td>
+                                <td><input type="text" name="endereco" id="endereco"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="cidade">Cidade:</label></td>
+                                <td><input type="text" name="cidade" id="cidade"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="estado">Estado:</label></td>
+                                <td><select name="estado" id="estado">
+                                        <option selected disabled>Selecione</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="BA">Bahia</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="quantFunc">Quant. Funcionários:</label></td>
+                                <td><input type="number" name="quantFunc" id="quantFunc"></td>
+                            </tr>
+                            <tr>
+                                <td class="texto-d"><label for="obs">Observações:</label></td>
+                                <td><textarea name="obs" id="obs" rows="5" cols="21"></textarea></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+    
+                    <table>
+                        <tr>
+                            <td class="texto-d"><label for="recibo">Recibo:</label></td>
+                            <td><input type="checkbox" name="recibo" id="recibo"></td>
+                            <td><label for="recibo">Emitir o nome da instituição</label></td>
+                        </tr>
+                        <tr>
+                            <td class="texto-d">
+                                <input type="submit" value="Fazer Inscrição">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
             </fieldset>
+        </div>
 
-            <h2>Informações da Instituição</h2>
-            <p>Preencha os campos abaixo com as informações da empresa em que trabalha.</p>
-            <fieldset>
-                <table>
-                    <tr>
-                        <td class="texto-d"><label for="empresa">Empresa:</label></td>
-                        <td><input type="text" name="empresa" id="empresa"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="endereco">Endereço Completo:</label></td>
-                        <td><input type="text" name="endereco" id="endereco"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="cidade">Cidade:</label></td>
-                        <td><input type="text" name="cidade" id="cidade"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="estado">Estado:</label></td>
-                        <td><select name="estado" id="estado">
-                            <option selected disabled>Selecione</option>
-                            <option value="AC">Acre</option>
-                            <option value="AP">Amapá</option>
-                            <option value="AM">Amazonas</option>
-                            <option value="AL">Alagoas</option>
-                            <option value="BA">Bahia</option>
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="quantFunc">Quant. Funcionários:</label></td>
-                        <td><input type="number" name="quantFunc" id="quantFunc"></td>
-                    </tr>
-                    <tr>
-                        <td class="texto-d"><label for="obs">Observações:</label></td>
-                        <td><textarea name="obs" id="obs" rows="5" cols="21"></textarea></td>
-                    </tr>
-                </table>
-            </fieldset>
+        <footer>
+            <p>Desenvolvido por Gabriel</p>
+        </footer>
+    </div>
 
-            <table>
-                <tr>
-                    <td class="texto-d"><label for="recibo">Recibo:</label></td>
-                    <td><input type="checkbox" name="recibo" id="recibo"></td>
-                    <td><label for="recibo">Emitir o nome da instituição</label></td>
-                </tr>
-                <tr>
-                    <td class="texto-d">
-                        <input type="submit" value="Fazer Inscrição">
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </fieldset>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>
