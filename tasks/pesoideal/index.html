@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 2</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <script>
-        altura = parseFloat(prompt('Qual a sua altura?'));
-        sexo = prompt('Qual o seu sexo? (M/F):');
-        
-        if (sexo.toUpperCase() == 'M') {
-            alert('Seu peso ideal é: '+((72.7*altura)-58)+' kg');
-        } else if (sexo.toUpperCase() == 'F') {
-            alert('Seu peso ideal é: '+((62.1*altura)-44.7)+' kg');
-        } else {
-            alert('Ocorreu um erro ao encontrar o peso ideal');
-        };
-    </script>
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="sessao">
+            <h1>Peso Ideal</h1>
+            <p>Um programa que calcula o peso ideal de uma pessoa!</p>
+            <div class="card">
+                <p>Aperte o botão para iniciar a atividade!</p>
+                <button onclick="pesoideal()">Iniciar</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido pelo Gabriel</p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

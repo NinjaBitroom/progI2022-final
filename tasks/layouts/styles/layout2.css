@@ -50,10 +50,11 @@
     'intro intro intro' minmax(auto, 50px)
     'box1 box2 box3' minmax(350px, auto)
     'footer footer footer' minmax(auto, 40px);
+    border-radius: 10px;
 }
 
 #grid-container > * {
-    background-color: yellowgreen;
+    background-color: green;
 }
 
 #ln {

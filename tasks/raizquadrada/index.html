@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 1</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <script>
-        numero = parseFloat(prompt('Digite um número:'));
-        if (numero > 0) {
-            alert('A raiz de '+numero+' é '+(Math.sqrt(numero)));
-        } else if (numero < 0) {
-            alert('O número '+numero+' ao quadrado é '+(numero**2));
-        } else {
-            alert('O número é '+numero);
-        };
-    </script>
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="sessao">
+            <h1>Raiz Quadrada</h1>
+            <p>Programa que calcula a raiz quadrada ou o quadrado de um número!</p>
+            <div class="card">
+                <p>Clique no botão abaixo para começar!</p>
+                <p>Obs.: O programa vai calcular a raiz quadrada de números positivos e calcular o quadrado de números negativos!</p>
+                <button id="iniciar">Iniciar</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; Gabriel Bitencourt Marin</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

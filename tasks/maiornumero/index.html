@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 2</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <input type="number" name="num1" id="num1">
-    <input type="number" name="num2" id="num2">
-    <input type="number" name="num3" id="num3">
-    <button onclick="maior()">Clique aqui</button>
-    <p id="paragrafo"></p>
+    <div id="container">
+        <header>
+            <p>Exercício 2</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Voltar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="sessao">
+            <h1>Maior Número</h1>
+            <p>Um programa que encontra o maior número</p>
+            <div class="card">
+                <h3>Digite os números nas caixas abaixo:</h3>
+                <h3>
+                    <input type="number" name="num1" id="num1">
+                    <input type="number" name="num2" id="num2">
+                    <input type="number" name="num3" id="num3">
+                    <button onclick="maior()">Clique aqui</button>
+                    <p id="paragrafo"></p>
+                </h3>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido por Gabriel</p>
+        </footer>
+    </div>
+    
     <script src="scripts/ex2.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

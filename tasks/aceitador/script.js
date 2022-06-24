@@ -1,5 +1,6 @@
 verificador = document.querySelector('#verificador')
-verificador.onclick = function() {
+verificador.onclick = function(e) {
+    e.preventDefault()
     var feminino = false
     for (let index = 0; index < sexo.length; index++) {
         if (sexo[index].value == 'F' && sexo[index].selected){

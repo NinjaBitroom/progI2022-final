@@ -5,21 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 4</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <script>
-        salario = parseFloat(prompt('Digite o seu salario: R$'));
-        funcao = prompt('Digite a sua função:');
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        if (funcao == 'técnico') {
-            novo_salario = salario+(salario*0.5);
-        } else if (funcao == 'gerente') {
-            novo_salario = salario+(salario*0.3);
-        } else {
-            novo_salario = salario+(salario*0.2);
-        };
+        <div id="sessao">
+            <h1>Reajuste de Salário</h1>
+            <p>Programa que calcula o reajuste de salário de uma pessoa!</p>
+            <div class="card">
+                <p>Clique no botão abaixo para começar!</p>
+                <p>Obs.: O reajuste do técnico e do gerente é diferente dos demais!</p>
+                <button id="iniciar">Iniciar</button>
+            </div>
+        </div>
 
-        alert('O salário de '+funcao+' que era R$ '+salario+' foi reajustado para R$'+novo_salario);
-    </script>
+        <footer>
+            <p>&copy; Gabriel Bitencourt Marin</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

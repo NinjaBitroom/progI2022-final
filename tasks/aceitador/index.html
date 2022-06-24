@@ -5,31 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 1</title>
+    <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body>
-    <form>
-        <label for="nome">Nome: </label>
-        <input type="text" name="nome" id="nome">
-        <br><br>
-    
-        <label for="sexo">Sexo: </label>
-        <select name="sexo" id="sexo">
-            <option selected disabled>Selecione...</option>
-            <option value="M">Masculino</option>
-            <option value="F">Feminino</option>
-        </select>
-        <br><br>
-    
-        <label for="idade">Idade: </label>
-        <input type="number" name="idade" id="idade" min="0" value="0">
-        <br><br>
-    
-        <input type="button" value="Verificar" id="verificador">
-        <input type="reset" value="Limpar">
-        <br><br>
-    </form>
+    <div id="container">
+        <header>
+            <p>Página de Gabriel</p>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Início</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <label id="mensagem">...</label>
+        <div class="sessao">
+            <h1>Aceitador</h1>
+            <p>Programa que verifica a idade e sexo de uma pessoa e diz se ela é aceita ou não!</p>
+            <div class="card">
+                <form>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                    <br><br>
+                
+                    <label for="sexo">Sexo: </label>
+                    <select name="sexo" id="sexo">
+                        <option selected disabled>Selecione...</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                    <br><br>
+                
+                    <label for="idade">Idade: </label>
+                    <input type="number" name="idade" id="idade" min="0" value="0">
+                    <br><br>
+                    
+                    <button id="verificador">Verificar</button>
+                    <button type="reset">Limpar</button>
+                    <br><br>
+                </form>
+            
+                <label id="mensagem">...</label>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; Gabriel Bitencourt Marin</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>

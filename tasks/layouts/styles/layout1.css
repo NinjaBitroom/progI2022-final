@@ -53,8 +53,9 @@
     'header header header' minmax(100px, auto)
     'side body body' minmax(350px, auto)
     'footer footer footer' minmax(auto, 40px);
+    border-radius: 10px;
 }
 
 #grid-container > * {
-    background-color: yellowgreen;
+    background-color: green;
 }
