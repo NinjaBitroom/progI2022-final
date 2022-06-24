@@ -1,0 +1,14 @@
+#tabuadas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#tabuadas > div {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
